@@ -1,0 +1,16 @@
+OPEN SONAL.EXE ON YOUR PHONE
+
+QUICK METHOD (requires a computer and phone on the same Wi-Fi):
+1. Install Node.js on the computer.
+2. Open Command Prompt inside this folder (the one containing package.json).
+3. Run: npm install
+4. Run: npm run dev -- --host 0.0.0.0
+5. Find the Network URL Vite prints, such as http://192.168.1.5:5173/.
+6. Open that exact Network URL in your phone browser.
+7. Keep the computer running while you view the site.
+
+Add personal media before previewing:
+- public/sonal-photo.jpeg
+- public/kids-birthday-wish.mp4
+
+If the phone cannot connect, allow Node.js through Windows Firewall on private networks and confirm both devices use the same Wi-Fi.
